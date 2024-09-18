@@ -5,7 +5,7 @@ import { FaTelegramPlane, FaLinkedinIn, FaGithub } from 'react-icons/fa';
 const Footer = () => {
   return (
     <div className="flex flex-col items-center gap-4">
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-2">
         <SocialIcon icon={<FaLinkedinIn size={20} />} link="" />
         <SocialIcon icon={<FaTelegramPlane size={20} />} link="" />
         <SocialIcon icon={<FaGithub size={20} />} link="" />

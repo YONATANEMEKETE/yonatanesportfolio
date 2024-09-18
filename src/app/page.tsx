@@ -7,10 +7,12 @@ import Email from '@/components/Email';
 import { homeNavs } from '@/Services/data';
 import HomeNav from '@/components/HomeNav';
 import Footer from '@/components/Footer';
+import Navigation from '@/components/Navigation';
 
 export default function Home() {
   return (
     <div className="min-h-[100vh] pb-20 bg-bg">
+      <Navigation />
       <Wrapper className="min-h-screen pt-32 px-4">
         <div className="flex flex-col items-center gap-44">
           <div className="flex flex-col items-center w-full gap-20">

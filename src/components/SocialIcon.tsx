@@ -1,4 +1,3 @@
-import { Twitter } from 'lucide-react';
 import React from 'react';
 
 type SocialProps = {
