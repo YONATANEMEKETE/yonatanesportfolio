@@ -19,6 +19,7 @@ const config: Config = {
         text: 'hsl(var(--text))',
         textlight: 'hsl(var(--textlight))',
         textlighter: 'hsl(var(--textlighter))',
+        accent: 'hsl(var(--accent))',
         background: 'var(--background)',
         foreground: 'var(--foreground)',
       },

@@ -9,6 +9,7 @@
   --text: 0 0% 100%;
   --textlight: 0 0% 80%;
   --textlighter: 0 0% 60%;
+  --accent: 22 96% 49%;
 }
 
 @media (prefers-color-scheme: dark) {
