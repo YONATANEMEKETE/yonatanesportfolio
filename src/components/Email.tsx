@@ -2,6 +2,7 @@
 
 import { Copy, CopyCheck, LoaderCircle } from 'lucide-react';
 import React from 'react';
+import { motion } from 'framer-motion';
 
 const Email = () => {
   const [copied, setCopied] = React.useState(false);
@@ -14,8 +15,19 @@ const Email = () => {
     }, 500);
   };
 
+  const variant = {
+    hidden: { opacity: 0, y: 20 },
+    enter: { opacity: 1, y: 0 },
+    exit: { opacity: 0, y: 20 },
+  };
+
   return (
-    <div
+    <motion.div
+      variants={variant}
+      animate="enter"
+      exit={'exit'}
+      initial="hidden"
+      transition={{ duration: 0.5 }}
       onClick={handleCopy}
       className={`px-4 py-2 w-28 rounded-md  border ${
         copied ? 'border-accent' : 'border-bglighter '
@@ -27,7 +39,7 @@ const Email = () => {
         <LoaderCircle size={20} className="animate-spin" />
       )}
       <p>{copied ? 'Copied!' : 'Email'}</p>
-    </div>
+    </motion.div>
   );
 };
 

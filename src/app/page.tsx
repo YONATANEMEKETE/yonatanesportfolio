@@ -8,6 +8,8 @@ import { homeNavs } from '@/Services/data';
 import HomeNav from '@/components/HomeNav';
 import Footer from '@/components/Footer';
 import Navigation from '@/components/Navigation';
+import { motion } from 'framer-motion';
+import HomeNavs from '@/components/HomeNavs';
 
 export default function Home() {
   return (
@@ -43,11 +45,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="w-full max-w-[500px] flex flex-col gap-6">
-              {homeNavs.map((nav) => (
-                <HomeNav text={nav.text} link={nav.link} key={nav.id} />
-              ))}
-            </div>
+            <HomeNavs />
           </div>
 
           <Footer />
