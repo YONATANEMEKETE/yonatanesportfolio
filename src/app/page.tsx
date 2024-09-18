@@ -10,7 +10,7 @@ import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
-    <div className="min-h-[100vh] pb-40 bg-bg">
+    <div className="min-h-[100vh] pb-20 bg-bg">
       <Wrapper className="min-h-screen pt-32 px-4">
         <div className="flex flex-col items-center gap-44">
           <div className="flex flex-col items-center w-full gap-20">
