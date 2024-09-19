@@ -4,7 +4,12 @@ import { Plus, X } from 'lucide-react';
 import React from 'react';
 import { LayoutGroup, motion } from 'framer-motion';
 
-const ServiceCard = () => {
+type serviceProps = {
+  title: string;
+  brief: string;
+};
+
+const ServiceCard = ({ title, brief }: serviceProps) => {
   const [view, setView] = React.useState(false);
 
   const handleView = () => {
@@ -23,7 +28,7 @@ const ServiceCard = () => {
     >
       <motion.div layout className="flex items-center justify-between">
         <p className="text-sm text-textlight font-body font-semibold">
-          Website Design and Development
+          {title}
         </p>
         <Plus
           size={20}
@@ -34,8 +39,7 @@ const ServiceCard = () => {
       </motion.div>
 
       <motion.p layout className="text-textlighter text-sm font-body ">
-        Creating responsive, dynamic, and interactive websites tailored to the
-        clients needs using HTML, CSS, JavaScript, and frameworks like React.js.
+        {brief}
       </motion.p>
     </motion.div>
   );

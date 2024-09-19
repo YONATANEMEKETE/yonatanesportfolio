@@ -1,7 +1,7 @@
 import Button from '@/components/Button';
 import ServiceCard from '@/components/ServiceCard';
 import Wrapper from '@/components/Wrapper';
-import { tools } from '@/Services/data';
+import { services, tools } from '@/Services/data';
 import { LayoutGroup } from 'framer-motion';
 import Image from 'next/image';
 import React from 'react';
@@ -70,10 +70,13 @@ const About = () => {
             </h2>
             <div className="space-y-4">
               <LayoutGroup>
-                <ServiceCard />
-                <ServiceCard />
-                <ServiceCard />
-                <ServiceCard />
+                {services.map((service) => (
+                  <ServiceCard
+                    title={service.title}
+                    brief={service.description}
+                    key={service.id}
+                  />
+                ))}
               </LayoutGroup>
             </div>
           </div>

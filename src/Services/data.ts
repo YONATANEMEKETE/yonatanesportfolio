@@ -61,4 +61,44 @@ const tools = [
   'GitHub',
 ];
 
-export { homeNavs, navs, tools };
+const services = [
+  {
+    id: 1,
+    title: 'Website design and development',
+    description:
+      'Creating responsive, dynamic, and interactive websites tailored to the clients needs using HTML, CSS, JavaScript, and frameworks like React.js.',
+  },
+  {
+    id: 2,
+    title: 'UI/UX Design Implementation',
+    description:
+      'Turning design mockups (from tools like Figma, Adobe XD, or Sketch) into pixel-perfect, functional web interfaces.',
+  },
+  {
+    id: 3,
+    title: 'Performance Optimization',
+    description:
+      'Reducing load times by optimizing code, images, and scripts to improve user experience and SEO.',
+  },
+  {
+    id: 4,
+    title: 'API Integration',
+    description:
+      'Connecting the frontend with backend services and APIs for dynamic content loading and real-time data updates.',
+  },
+  {
+    id: 5,
+    title: 'Web Animations & Micro-Interactions',
+    description:
+      'Adding animations and micro-interactions to improve user engagement using CSS animations or JavaScript libraries like Framer Motion or GSAP.',
+  },
+  {
+    id: 6,
+    title: 'Maintenance & Support',
+    description:
+      'Offering updates, security checks, and feature enhancements to keep websites running smoothly.',
+  },
+ 
+];
+
+export { homeNavs, navs, tools, services };
