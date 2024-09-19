@@ -12,6 +12,11 @@ type serviceProps = {
 const ServiceCard = ({ title, brief }: serviceProps) => {
   const [view, setView] = React.useState(false);
 
+  const riseToTop = {
+    initial: { opacity: 0, y: 20 },
+    enter: { opacity: 1, y: 0, transition: { duration: 1, ease: 'easeOut' } },
+  };
+
   const handleView = () => {
     setView(!view);
   };
@@ -19,6 +24,7 @@ const ServiceCard = ({ title, brief }: serviceProps) => {
   return (
     <motion.div
       layout
+      variants={riseToTop}
       transition={{ layout: { duration: 0.5, ease: 'easeOut' } }}
       onClick={handleView}
       className={`p-4 py-3 ${

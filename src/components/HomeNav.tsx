@@ -16,6 +16,7 @@ const HomeNav = ({ text, link }: HomeNavProps) => {
     enter: {
       opacity: 1,
       y: 0,
+      transition: { duration: 1, ease: 'easeOut' },
     },
     exit: { opacity: 0, y: 20 },
   };
