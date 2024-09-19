@@ -27,7 +27,7 @@ const Email = () => {
       animate="enter"
       exit={'exit'}
       initial="hidden"
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 0.7, ease: 'easeOut' }}
       onClick={handleCopy}
       className={`px-4 py-2 w-28 rounded-md  border ${
         copied ? 'border-accent' : 'border-bglighter '

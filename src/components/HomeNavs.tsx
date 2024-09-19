@@ -6,12 +6,12 @@ import { homeNavs } from '@/Services/data';
 import { AnimatePresence, motion, useMotionValue } from 'framer-motion';
 
 const HomeNavs = () => {
-  const variants = {
+  const parentVar = {
     hidden: { opacity: 0, y: 20 },
     enter: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.5 },
+      transition: { staggerChildren: 0.5, ease: 'easeOut', duration: 0.5 },
     },
     exit: { opacity: 0, y: 20 },
   };
@@ -21,7 +21,7 @@ const HomeNavs = () => {
       initial="hidden"
       animate="enter"
       exit="exit"
-      variants={variants}
+      variants={parentVar}
       className="w-full max-w-[500px] flex flex-col gap-6"
     >
       {homeNavs.map((nav) => (
