@@ -98,7 +98,60 @@ const services = [
     description:
       'Offering updates, security checks, and feature enhancements to keep websites running smoothly.',
   },
- 
 ];
 
-export { homeNavs, navs, tools, services };
+const projects = [
+  {
+    title: 'TrackZ',
+    type: 'Landing Page',
+    shortDescription:
+      'a customer Relationship managment(CRM) landing page website.',
+    description:
+      'CRM is software system that helps business owners easily track all communications and nurture relationships with their leads and clients. A CRM connects all the data from your sales leads and customers, all in one place. and I build the landing page for this software to attract more trafic to the the product. I built the landing Page in a way that it can be very convertable by considering SEO ranking and performance optimization. I have added modern animations and micro-interactions to improve user engagment using libraries like lenis scroll, React parallax and Framer motion.',
+    tools: [
+      'Next.js',
+      'Tailwind',
+      'Shadcn',
+      'Lenis',
+      'ReactParallax',
+      'Typescript',
+    ],
+    github: 'https://github.com/YONATANEMEKETE/trackz-crm',
+    live: 'https://trackz-crm.vercel.app',
+    images: [],
+    profile: 'https://ik.imagekit.io/6qizpphtd1/Portfolio/pro1image1.jpg',
+  },
+  {
+    title: 'Clause',
+    type: 'Landing Page',
+    shortDescription: 'a contract managment landing Page website',
+    description:
+      'Designed and developed a responsive, visually appealing landing page using React.js, Next.js ensuring optimal performance and accessibility. Implemented modern UI/UX principles to enhance user experience, integrating smooth animations, custom components, and clean, well-structured code. Focused on delivering a minimalist, mobile-first design with cross-browser compatibility and SEO optimization.',
+    tools: [
+      'Typescript',
+      'Next.js',
+      'React.js',
+      'Tailwind',
+      'Shadcn',
+      'Zustand',
+    ],
+    github: 'https://github.com/YONATANEMEKETE/claude',
+    live: 'https://clause.vercel.app/',
+    images: [],
+    profile: 'https://ik.imagekit.io/6qizpphtd1/Portfolio/pro3image1.png',
+  },
+  {
+    title: 'SpacePark',
+    type: 'SocialMedia UI',
+    shortDescription: 'simple Social Media UI/UX',
+    description:
+      'SpacePark is an illustration of what a real life Social media experiance would feel like. I built the frontend Part of the project mainly focusing on the User Interface and User Experiance. if there was a backend or some database this is how it would look like and the UI is fully responsive and compatabile with most website browsers.',
+    tools: ['Typescript', 'Next.js', 'React.js', 'Tailwind', 'Shadcn'],
+    github: 'https://github.com/YONATANEMEKETE/spacepark',
+    live: 'https://spaceparkkk.vercel.app/',
+    images: [],
+    profile: 'https://ik.imagekit.io/6qizpphtd1/Portfolio/pro2image1.png',
+  },
+];
+
+export { homeNavs, navs, tools, services, projects };
