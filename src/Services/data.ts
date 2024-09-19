@@ -44,4 +44,21 @@ const navs = [
   },
 ];
 
-export { homeNavs, navs };
+const tools = [
+  'HTML',
+  'CSS',
+  'JavaScript',
+  'TypeScript',
+  'React.js',
+  'Next.js',
+  'Tailwind.css',
+  'Sass',
+  'Shadcn UI',
+  'Framer Motion',
+  'Zustand',
+  'Vercel',
+  'Git',
+  'GitHub',
+];
+
+export { homeNavs, navs, tools };

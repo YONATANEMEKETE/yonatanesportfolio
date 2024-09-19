@@ -24,7 +24,7 @@ const HomeNav = ({ text, link }: HomeNavProps) => {
     <motion.div variants={childVar}>
       <Link
         href={link}
-        className=" group px-3 py-6 text-sm text-textlight font-body font-medium cursor-pointer border border-bglight hover:border-bglighter rounded-md flex items-center justify-between"
+        className="group px-3 py-6 bg-bg text-sm text-textlight font-body font-medium cursor-pointer border border-bglight hover:border-bglighter rounded-md flex items-center justify-between"
       >
         <p className="group-hover:text-textlighter transition-all duration-200">
           {text}

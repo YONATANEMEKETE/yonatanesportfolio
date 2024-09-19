@@ -10,17 +10,18 @@ import Footer from '@/components/Footer';
 import Navigation from '@/components/Navigation';
 import { motion } from 'framer-motion';
 import HomeNavs from '@/components/HomeNavs';
+import BgPattern from '@/components/BgPattern';
 
 export default function Home() {
   return (
     <div className="min-h-[100vh] pb-20 bg-bg">
-      <Navigation />
-      <Wrapper className="min-h-screen pt-32 px-4">
+      <BgPattern />
+      <Wrapper className="relative min-h-screen pt-32 px-4">
         <div className="flex flex-col items-center gap-44">
           <div className="flex flex-col items-center w-full gap-20">
             <div className="w-max mx-auto flex flex-col items-center gap-8">
               <div className="w-max mx-auto flex flex-col items-center gap-8">
-                <div className="relative size-28 rounded-full bg-bg overflow-clip cursor-pointer ring-2 ring-text ring-offset-4 ring-offset-bg">
+                <div className="relative size-28 rounded-full overflow-clip cursor-pointer ring-2 ring-text ring-offset-4 ring-offset-bg">
                   <Image
                     src={profile}
                     alt="profile"

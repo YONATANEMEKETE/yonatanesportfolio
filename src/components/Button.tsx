@@ -6,11 +6,11 @@ type ButtonProps = {
   text: string;
 };
 
-const Button = ({ variant = 'primary', icon, text }: ButtonProps) => {
+const Button = ({ variant = 'secondary', icon, text }: ButtonProps) => {
   if (variant === 'secondary') {
     return (
       <div
-        className={`px-4 py-2 rounded-md  border border-bglighter text-sm text-text font-body font-medium cursor-pointer `}
+        className={`px-4 py-2 rounded-md bg-bg  border border-bglighter hover:border-accent text-sm text-text font-body font-medium cursor-pointer `}
       >
         <p>{text}</p>
       </div>

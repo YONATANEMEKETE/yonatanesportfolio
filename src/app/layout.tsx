@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 import { Noto_Serif, Inter } from 'next/font/google';
 import './globals.css';
+import Navigation from '@/components/Navigation';
 
 const geistSans = localFont({
   src: './fonts/GeistVF.woff',
@@ -39,6 +40,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${notoSerief.variable} ${inter.variable} antialiased`}
       >
+        <Navigation />
         {children}
       </body>
     </html>

@@ -4,7 +4,7 @@ import { navs } from '@/Services/data';
 
 const Navigation = () => {
   return (
-    <div className="fixed left-4 top-1/2 -translate-y-1/2 bg-bglight px-3 py-3 rounded-xl flex flex-col items-center gap-4">
+    <div className="fixed z-40 left-4 top-1/2 -translate-y-1/2 bg-bglight px-3 py-3 rounded-xl flex flex-col items-center gap-4">
       {navs.map((nav) => (
         <Nav
           key={nav.tooltip}
