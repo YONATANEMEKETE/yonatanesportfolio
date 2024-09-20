@@ -16,8 +16,8 @@ const Nav = ({ text, Icon, link }: NavProps) => {
     >
       <Icon size={20} className="peer" />
       <div
-        className="absolute opacity-0 left-[100%] peer-hover:opacity-100 peer-hover:left-[110%] top-1/2 transition-all duration-300
-      -translate-y-1/2 w-max px-2 py-1 text-base text-textlighter font-body font-semibold bg-bg border border-bglighter rounded-md"
+        className="absolute opacity-0 min-[600px]:left-[100%] -left-1/2  top-[110%] peer-hover:opacity-100 min-[600px]:peer-hover:left-[110%] min-[600px]:peer-hover:top-[100%] min-[600px]:top-1/2 transition-all duration-300
+      min-[600px]:-translate-y-1/2   w-max px-2 py-1 text-base text-textlighter font-body font-semibold bg-bg border border-bglighter rounded-md"
       >
         {text}
       </div>

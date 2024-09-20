@@ -6,7 +6,11 @@ type WrapperProps = {
 };
 
 const Wrapper = ({ className, children }: WrapperProps) => {
-  return <div className={`max-w-[600px] mx-auto ${className}`}>{children}</div>;
+  return (
+    <div className={`max-w-[600px]  mx-4 min-[600px]:mx-auto ${className}`}>
+      {children}
+    </div>
+  );
 };
 
 export default Wrapper;
