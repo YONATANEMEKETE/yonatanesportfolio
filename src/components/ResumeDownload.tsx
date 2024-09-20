@@ -18,7 +18,7 @@ const ResumeDownload = () => {
       exit={'exit'}
       initial="hidden"
       transition={{ duration: 0.3, ease: 'easeOut' }}
-      href="../../public/resume.pdf"
+      href={'../Assets/YONATANE MEKETE.pdf'}
       download
       className="group w-28 px-4 py-2 bg-bglight/30 rounded-md border border-bglighter text-sm text-text font-body font-medium cursor-pointer flex items-center gap-2 justify-center"
     >
