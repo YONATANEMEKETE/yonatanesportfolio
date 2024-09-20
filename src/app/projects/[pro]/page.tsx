@@ -67,7 +67,7 @@ const Project = ({ params }: { params: { pro: string } }) => {
 
               <motion.p
                 variants={riseToTop}
-                className="text-textlight text-base font-body font-medium text-justify"
+                className="text-textlight min-[500px]:text-base text-sm font-body font-medium text-justify"
               >
                 {currentProject.description}
               </motion.p>

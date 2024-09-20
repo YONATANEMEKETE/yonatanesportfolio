@@ -8,7 +8,7 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 function ImageSlide(props: { currentProject: projectType; current: number }) {
   return (
-    <motion.div className="relative w-full h-[300px] bg-bg  rounded-xl cursor-pointer flex flex-nowrap">
+    <motion.div className="relative w-full min-[500px]:h-[300px] min-[400px]:h-[200px] h-[150px] bg-bg  rounded-xl cursor-pointer flex flex-nowrap">
       <Image
         src={props.currentProject.images[props.current]}
         alt={props.currentProject.title}
@@ -56,13 +56,13 @@ const ProjectVisual = (props: { currentProject: projectType }) => {
       <div className="absolute right-8 bottom-4 flex items-center gap-2">
         <div
           onClick={handleVisualBack}
-          className="group  size-10 rounded-full bg-bg hover:bg-bg/90 cursor-pointer grid place-content-center transition-all duration-300"
+          className="group  min-[400px]:size-10 size-8 rounded-full bg-bg hover:bg-bg/90 cursor-pointer grid place-content-center transition-all duration-300"
         >
           <ChevronLeft className="text-text group-hover:-translate-x-[2px] transition-transform duration-300" />
         </div>
         <div
           onClick={handleVisual}
-          className="group  size-10 rounded-full bg-bg hover:bg-bg/90 cursor-pointer grid place-content-center transition-all duration-300"
+          className="group  min-[400px]:size-10 size-8 rounded-full bg-bg hover:bg-bg/90 cursor-pointer grid place-content-center transition-all duration-300"
         >
           <ChevronRight className="text-text group-hover:translate-x-[2px] transition-transform duration-300" />
         </div>
