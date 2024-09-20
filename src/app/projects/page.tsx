@@ -18,8 +18,8 @@ const Projects = () => {
   };
 
   return (
-    <div className="min-h-screen bg-bg pb-20">
-      <Wrapper className="relative min-h-screen pt-32 px-4 space-y-32">
+    <div className="min-h-screen bg-bg pb-20 overflow-x-auto">
+      <Wrapper className="relative min-h-screen pt-32 min-[500px]:px-4 space-y-32">
         <motion.div
           variants={riseStagger}
           initial="initial"

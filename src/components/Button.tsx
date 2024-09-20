@@ -17,7 +17,7 @@ const Button = ({ variant = 'secondary', icon, text }: ButtonProps) => {
     return (
       <motion.div
         variants={slideRight}
-        className={`px-4 py-2 rounded-md bg-bg  border border-bglighter hover:border-accent text-sm text-text font-body font-medium cursor-pointer `}
+        className={`px-4 py-2 rounded-md bg-bg  border border-bglighter hover:border-accent min-[500px]:text-sm text-xs text-text font-body font-medium cursor-pointer `}
       >
         <p>{text}</p>
       </motion.div>

@@ -33,7 +33,7 @@ const ServiceCard = ({ title, brief }: serviceProps) => {
     rounded-md space-y-4`}
     >
       <motion.div layout className="flex items-center justify-between">
-        <p className="text-sm text-textlight font-body font-semibold">
+        <p className="min-[500px]:text-sm text-xs text-textlight font-body font-semibold">
           {title}
         </p>
         <Plus

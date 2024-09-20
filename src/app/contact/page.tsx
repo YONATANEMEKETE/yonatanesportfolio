@@ -27,10 +27,10 @@ const Contact = () => {
           viewport={{ once: true }}
           className="space-y-3 w-full text-center px-4"
         >
-          <h1 className="text-3xl text-text font-body font-semibold">
+          <h1 className="min-[500px]:text-3xl text-xl text-text font-body font-semibold">
             The Stage is Yours
           </h1>
-          <p className="text-base text-textlight font-body font-medium">
+          <p className="min-[500px]:text-base text-sm text-textlight font-body font-medium">
             I&apos;m always looking to collaborate on interesting projects with
             great people. Tell me about your project!
           </p>
@@ -61,7 +61,7 @@ const Contact = () => {
             </p>
           </div>
 
-          <div className="flex items-center gap-4 justify-center w-full">
+          <div className="flex flex-wrap items-center gap-4 justify-center w-full">
             <ContactLink
               text="LinkedIn"
               link="https://www.linkedin.com/in/yonatane-m/"

@@ -44,9 +44,9 @@ const About = () => {
               initial="initial"
               whileInView={'enter'}
               viewport={{ once: true }}
-              className="about-shadow w-full h-60 py-3 px-5 border border-bglight rounded-xl  flex items-end justify-between"
+              className="about-shadow w-full min-[500px]:h-60 h-40 py-3 px-5 border border-bglight rounded-xl  flex items-end justify-between"
             >
-              <div className="relative h-full w-[150px] rounded-xl overflow-clip cursor-pointer">
+              <div className="relative h-full min-[500px]:w-[150px] w-[100px] rounded-xl overflow-clip cursor-pointer">
                 <Image
                   src={'/profile.webp'}
                   alt="profile"
@@ -54,8 +54,8 @@ const About = () => {
                   className="object-cover rounded-xl"
                 />
               </div>
-              <div className="pb-10 pr-2 max-w-[200px] text-end">
-                <p className="text-text text-2xl font-heading font-semibold">
+              <div className="pb-10 pr-2 min-[500px]:max-w-[200px] max-w-[120px] text-end">
+                <p className="text-text min-[500px]:text-2xl text-lg font-heading font-semibold">
                   YONATANE MEKETE
                 </p>
               </div>
@@ -66,7 +66,7 @@ const About = () => {
               initial="initial"
               whileInView={'enter'}
               viewport={{ once: true }}
-              className="text-textlight text-base text-justify font-body font-medium space-y-4 leading-relaxed"
+              className="text-textlight min-[500px]:text-base text-xs text-justify font-body font-medium space-y-4 leading-relaxed"
             >
               <motion.p variants={riseToTop}>
                 Hi, I&apos;m{' '}
