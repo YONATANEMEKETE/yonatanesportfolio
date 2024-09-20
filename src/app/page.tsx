@@ -21,7 +21,7 @@ export default function Home() {
           <div className="flex flex-col items-center w-full gap-20">
             <div className="w-max mx-auto flex flex-col items-center gap-8">
               <div className="w-max mx-auto flex flex-col items-center gap-8">
-                <div className="relative size-28 rounded-full overflow-clip cursor-pointer ring-2 ring-text ring-offset-4 ring-offset-bg">
+                <div className="relative min-[500px]:size-28 size-24 rounded-full overflow-clip cursor-pointer ring-2 ring-text ring-offset-4 ring-offset-bg">
                   <Image
                     src={profile}
                     alt="profile"
@@ -30,10 +30,10 @@ export default function Home() {
                   />
                 </div>
                 <div className="space-y-2 text-center mx-auto">
-                  <h1 className="text-3xl text-text font-heading font-semibold">
+                  <h1 className="min-[500px]:text-3xl text-2xl text-text font-heading font-semibold">
                     YONATANE.M
                   </h1>
-                  <p className="text-base text-textlighter font-body font-medium max-w-[400px] mx-auto">
+                  <p className="min-[500px]:text-base text-sm text-textlighter font-body font-medium min-[500px]:max-w-[400px] max-w-[300px] mx-auto">
                     Frontend developer focused on creating responsive,
                     user-friendly interfaces.
                   </p>
