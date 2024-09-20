@@ -64,10 +64,13 @@ const Contact = () => {
           <div className="flex flex-wrap items-center gap-4 justify-center w-full">
             <ContactLink
               text="LinkedIn"
-              link="https://www.linkedin.com/in/yonatane-m/"
+              link="https://www.linkedin.com/in/yonatanemekete/"
             />
-            <ContactLink text="Github" link="https://github.com/yonatane" />
-            <ContactLink text="Telegram" link="https://t.me/yonatane" />
+            <ContactLink
+              text="Github"
+              link="https://github.com/YONATANEMEKETE"
+            />
+            <ContactLink text="Telegram" link="https://t.me/YNTN737" />
           </div>
         </motion.div>
       </Wrapper>

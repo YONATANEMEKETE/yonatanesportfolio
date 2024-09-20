@@ -9,7 +9,7 @@ const Email = () => {
 
   const handleCopy = () => {
     setCopied(true);
-    navigator.clipboard.writeText('YONATANE.M');
+    navigator.clipboard.writeText('amanualealemayehu33@gmail.com');
     setTimeout(() => {
       setCopied(false);
     }, 500);
