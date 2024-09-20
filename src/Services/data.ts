@@ -2,6 +2,7 @@ import { SiHomebridge } from 'react-icons/si';
 import { BiSolidZap } from 'react-icons/bi';
 import { FaFaceSmileBeam } from 'react-icons/fa6';
 import { BiSolidMessageSquareEdit } from 'react-icons/bi';
+import { projectType } from './Types';
 
 const homeNavs = [
   {
@@ -100,7 +101,7 @@ const services = [
   },
 ];
 
-const projects = [
+const projects: projectType[] = [
   {
     title: 'TrackZ',
     type: 'Landing Page',
@@ -118,7 +119,12 @@ const projects = [
     ],
     github: 'https://github.com/YONATANEMEKETE/trackz-crm',
     live: 'https://trackz-crm.vercel.app',
-    images: [],
+    images: [
+      'https://ik.imagekit.io/6qizpphtd1/Portfolio/pro1image1.jpg',
+      'https://ik.imagekit.io/6qizpphtd1/Portfolio/pro1image2.jpg',
+      'https://ik.imagekit.io/6qizpphtd1/Portfolio/pro1image3.jpg',
+      'https://ik.imagekit.io/6qizpphtd1/Portfolio/pro1image4.jpg',
+    ],
     profile: 'https://ik.imagekit.io/6qizpphtd1/Portfolio/pro1image1.jpg',
   },
   {
@@ -137,7 +143,13 @@ const projects = [
     ],
     github: 'https://github.com/YONATANEMEKETE/claude',
     live: 'https://clause.vercel.app/',
-    images: [],
+    images: [
+      'https://ik.imagekit.io/6qizpphtd1/Portfolio/pro3image1.png',
+      'https://ik.imagekit.io/6qizpphtd1/Portfolio/pro3image2.jpg',
+      'https://ik.imagekit.io/6qizpphtd1/Portfolio/pro3image3.jpg',
+      'https://ik.imagekit.io/6qizpphtd1/Portfolio/pro3image4.jpg',
+      'https://ik.imagekit.io/6qizpphtd1/Portfolio/pro3image5.jpg',
+    ],
     profile: 'https://ik.imagekit.io/6qizpphtd1/Portfolio/pro3image1.png',
   },
   {
@@ -149,7 +161,10 @@ const projects = [
     tools: ['Typescript', 'Next.js', 'React.js', 'Tailwind', 'Shadcn'],
     github: 'https://github.com/YONATANEMEKETE/spacepark',
     live: 'https://spaceparkkk.vercel.app/',
-    images: [],
+    images: [
+      'https://ik.imagekit.io/6qizpphtd1/Portfolio/pro2image1.png',
+      'https://ik.imagekit.io/6qizpphtd1/Portfolio/pro2image2.png',
+    ],
     profile: 'https://ik.imagekit.io/6qizpphtd1/Portfolio/pro2image1.png',
   },
 ];
