@@ -3,7 +3,7 @@
 import React from 'react';
 import HomeNav from '@/components/HomeNav';
 import { homeNavs } from '@/Services/data';
-import { AnimatePresence, motion, useMotionValue } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 const HomeNavs = () => {
   const parentVar = {

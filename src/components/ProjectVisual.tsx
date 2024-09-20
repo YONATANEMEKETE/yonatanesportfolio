@@ -2,8 +2,8 @@
 
 import { projectType } from '@/Services/Types';
 import Image from 'next/image';
-import React, { useEffect } from 'react';
-import { AnimatePresence, motion } from 'framer-motion';
+import React from 'react';
+import { motion } from 'framer-motion';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 function ImageSlide(props: { currentProject: projectType; current: number }) {

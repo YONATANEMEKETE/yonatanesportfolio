@@ -2,11 +2,9 @@
 
 import Wrapper from '@/components/Wrapper';
 import { projects } from '@/Services/data';
-import { projectType } from '@/Services/Types';
-import React, { useEffect } from 'react';
+import React from 'react';
 import ProjectVisual from '@/components/ProjectVisual';
 import Button from '@/components/Button';
-import ContactLink from '@/components/ContactLink';
 import ProjectCard from '@/components/ProjectCard';
 import Footer from '@/components/Footer';
 import { motion } from 'framer-motion';

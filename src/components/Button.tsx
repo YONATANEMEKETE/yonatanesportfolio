@@ -3,11 +3,10 @@ import { motion } from 'framer-motion';
 
 type ButtonProps = {
   variant?: 'primary' | 'secondary';
-  icon?: any;
   text: string;
 };
 
-const Button = ({ variant = 'secondary', icon, text }: ButtonProps) => {
+const Button = ({ variant = 'secondary', text }: ButtonProps) => {
   const slideRight = {
     initial: { opacity: 0, x: -20 },
     enter: { opacity: 1, x: 0, transition: { duration: 1, ease: 'easeOut' } },

@@ -87,7 +87,7 @@ const About = () => {
                 I am highly consumed in the thought of creating the life i want
                 in the near future. so I am always learning{' '}
                 <span className="text-accent font-semibold">new skills</span>,
-                and improving the ones I've already have. I love reading
+                and improving the ones I&apos;ve already have. I love reading
                 personal development books, and i believe in a strict,
                 productive work ethics.
               </motion.p>

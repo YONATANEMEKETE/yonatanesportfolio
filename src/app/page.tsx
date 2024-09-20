@@ -1,14 +1,9 @@
 import Wrapper from '@/components/Wrapper';
 import Image from 'next/image';
 import profile from '../../public/profile.webp';
-import Button from '@/components/Button';
 import ResumeDownload from '@/components/ResumeDownload';
 import Email from '@/components/Email';
-import { homeNavs } from '@/Services/data';
-import HomeNav from '@/components/HomeNav';
 import Footer from '@/components/Footer';
-import Navigation from '@/components/Navigation';
-import { motion } from 'framer-motion';
 import HomeNavs from '@/components/HomeNavs';
 import BgPattern from '@/components/BgPattern';
 

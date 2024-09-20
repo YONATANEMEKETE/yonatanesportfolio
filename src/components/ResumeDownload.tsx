@@ -1,6 +1,6 @@
 'use client';
 
-import { ArrowDown, ArrowDownToLine, ChevronDown, Minus } from 'lucide-react';
+import { ArrowDownToLine } from 'lucide-react';
 import React from 'react';
 import { motion } from 'framer-motion';
 

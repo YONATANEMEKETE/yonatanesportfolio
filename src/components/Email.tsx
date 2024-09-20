@@ -1,6 +1,6 @@
 'use client';
 
-import { Copy, CopyCheck, LoaderCircle } from 'lucide-react';
+import { Copy, LoaderCircle } from 'lucide-react';
 import React from 'react';
 import { motion } from 'framer-motion';
 
