@@ -18,12 +18,10 @@ const ResumeDownload = () => {
       exit={'exit'}
       initial="hidden"
       transition={{ duration: 0.3, ease: 'easeOut' }}
-      href={
-        'https://docs.google.com/document/d/1K_f9gVpXoUc7pXPa_aHSmrnyiKOiok8BJMmTh30Eqcw/edit?usp=sharing'
-      }
-      className="group w-28 px-4 py-2 bg-bglight/30 rounded-md border border-bglighter text-sm text-text font-body font-medium cursor-pointer flex items-center gap-2 justify-center"
+      href="https://drive.google.com/file/d/1quz30Z5g5ScoF0_NafaTJ9zX8Lnx8HI0/view?usp=sharing"
+      target="_blank"
+      className="group w-28 px-4 py-2 bg-bglight/30 rounded-md border border-bglighter hover:border-accent text-sm text-text font-body font-medium cursor-pointer flex items-center gap-2 justify-center"
     >
-      <ArrowDownToLine size={20} />
       <p>Resume</p>
     </motion.a>
   );

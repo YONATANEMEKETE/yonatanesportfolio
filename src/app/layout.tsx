@@ -27,7 +27,21 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: 'Yonatane.M',
-  description: 'portfolio website',
+  description: 'Portfolio Website',
+  openGraph: {
+    title: 'Yonatane.M',
+    description: 'Portfolio Website',
+    siteName: 'Yonatane.M',
+    locale: 'en_US',
+    type: 'website',
+    images: [
+      {
+        url: 'https://ik.imagekit.io/6qizpphtd1/Portfolio/92shots_so.png',
+        width: 800,
+        height: 600,
+      },
+    ],
+  },
 };
 
 export default function RootLayout({

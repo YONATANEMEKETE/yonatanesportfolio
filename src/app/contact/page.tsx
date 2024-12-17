@@ -70,7 +70,7 @@ const Contact = () => {
               text="Github"
               link="https://github.com/YONATANEMEKETE"
             />
-            <ContactLink text="Telegram" link="https://t.me/YNTN737" />
+            <ContactLink text="Telegram" link="https://t.me/yonatanemekete" />
           </div>
         </motion.div>
       </Wrapper>

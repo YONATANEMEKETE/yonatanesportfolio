@@ -12,7 +12,7 @@ const Footer = () => {
         />
         <SocialIcon
           icon={<FaTelegramPlane size={20} />}
-          link="https://t.me/YNTN737"
+          link="https://t.me/yonatanemekete"
         />
         <SocialIcon
           icon={<FaGithub size={20} />}

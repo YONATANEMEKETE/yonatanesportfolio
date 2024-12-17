@@ -6,7 +6,7 @@ import { projectType } from './Types';
 
 const homeNavs = [
   {
-    text: 'A. I heard you can build stunning websites.',
+    text: 'A. I heard you can build stunning websites and web Apps.',
     link: '/projects',
     id: '1',
   },
@@ -60,6 +60,8 @@ const tools = [
   'Vercel',
   'Git',
   'GitHub',
+  'Jest',
+  'Cypress',
 ];
 
 const services = [
@@ -102,6 +104,57 @@ const services = [
 ];
 
 const projects: projectType[] = [
+  {
+    title: 'SnapBuild',
+    type: 'Web Application',
+    shortDescription: 'Project Management tool for Frontend Developer',
+    description:
+      'SnapBuild is a project management tool designed specifically for frontend developers. It provides a clear and organized roadmap to successfully build projects by streamlining planning, feature management, and execution. Whether you are defining goals, adding core features, breaking milestones, or visualizing the tech stack, SnapBuild ensures every step of the process is structured and manageable.',
+    tools: [
+      'Next.js 15',
+      'React 19',
+      'Typescript',
+      'Tailwind',
+      'Shadcn',
+      'Pinata w3',
+      'React Dropzone',
+    ],
+    github: 'https://github.com/YONATANEMEKETE/SnapBuild',
+    live: 'https://snap-build.vercel.app/',
+    images: [
+      'https://ik.imagekit.io/6qizpphtd1/Portfolio/753shots_so.png',
+      'https://ik.imagekit.io/6qizpphtd1/Portfolio/767shots_so.png',
+      'https://ik.imagekit.io/6qizpphtd1/Portfolio/699shots_so.png',
+      'https://ik.imagekit.io/6qizpphtd1/Portfolio/598shots_so.png',
+      'https://ik.imagekit.io/6qizpphtd1/Portfolio/174shots_so.png',
+    ],
+    profile: 'https://ik.imagekit.io/6qizpphtd1/Portfolio/753shots_so.png',
+  },
+  {
+    title: 'QuickPrep',
+    type: 'Web Application',
+    shortDescription:
+      'a web application for quick and easy study material preparation.',
+    description:
+      'QuickPrep is a web application designed to streamline the learning process. Users can upload PDF documents, and the platform generates concise notes and sample questions to help them prepare efficiently for their studies or work.',
+    tools: [
+      'Next.js',
+      'React',
+      'Typescript',
+      'Tailwind',
+      'Shadcn',
+      'vercel Ai SDK',
+      'Gemini AI',
+    ],
+    github: 'https://github.com/YONATANEMEKETE/quickprep',
+    live: 'https://quickprepp.vercel.app/',
+    images: [
+      'https://ik.imagekit.io/6qizpphtd1/Portfolio/316shots_so.png',
+      'https://ik.imagekit.io/6qizpphtd1/Portfolio/619shots_so.png',
+      'https://ik.imagekit.io/6qizpphtd1/Portfolio/737shots_so.png',
+    ],
+    profile: 'https://ik.imagekit.io/6qizpphtd1/Portfolio/316shots_so.png',
+  },
   {
     title: 'TrackZ',
     type: 'Landing Page',
@@ -151,21 +204,6 @@ const projects: projectType[] = [
       'https://ik.imagekit.io/6qizpphtd1/Portfolio/pro3image5.jpg',
     ],
     profile: 'https://ik.imagekit.io/6qizpphtd1/Portfolio/pro3image1.png',
-  },
-  {
-    title: 'SpacePark',
-    type: 'SocialMedia UI',
-    shortDescription: 'simple Social Media UI/UX',
-    description:
-      'SpacePark is an illustration of what a real life Social media experiance would feel like. I built the frontend Part of the project mainly focusing on the User Interface and User Experiance. if there was a backend or some database this is how it would look like and the UI is fully responsive and compatabile with most website browsers.',
-    tools: ['Typescript', 'Next.js', 'React.js', 'Tailwind', 'Shadcn'],
-    github: 'https://github.com/YONATANEMEKETE/spacepark',
-    live: 'https://spaceparkkk.vercel.app/',
-    images: [
-      'https://ik.imagekit.io/6qizpphtd1/Portfolio/pro2image1.png',
-      'https://ik.imagekit.io/6qizpphtd1/Portfolio/pro2image2.png',
-    ],
-    profile: 'https://ik.imagekit.io/6qizpphtd1/Portfolio/pro2image1.png',
   },
 ];
 

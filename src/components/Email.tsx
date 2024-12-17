@@ -5,15 +5,15 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const Email = () => {
-  const [copied, setCopied] = React.useState(false);
+  // const [copied, setCopied] = React.useState(false);
 
-  const handleCopy = () => {
-    setCopied(true);
-    navigator.clipboard.writeText('amanualealemayehu33@gmail.com');
-    setTimeout(() => {
-      setCopied(false);
-    }, 500);
-  };
+  // const handleCopy = () => {
+  //   setCopied(true);
+  //   navigator.clipboard.writeText('amanualealemayehu33@gmail.com');
+  //   setTimeout(() => {
+  //     setCopied(false);
+  //   }, 500);
+  // };
 
   const variant = {
     hidden: { opacity: 0, y: 20 },
@@ -22,24 +22,23 @@ const Email = () => {
   };
 
   return (
-    <motion.div
+    <motion.a
+      href="mailto:yonatanemekete22@gmail.com"
+      target="_blank"
       variants={variant}
       animate="enter"
       exit={'exit'}
       initial="hidden"
       transition={{ duration: 0.7, ease: 'easeOut' }}
-      onClick={handleCopy}
-      className={`px-4 py-2 w-28 rounded-md  border ${
-        copied ? 'border-accent' : 'border-bglighter '
-      } bg-bg text-sm text-text font-body font-medium cursor-pointer flex items-center gap-2 justify-center`}
+      className={`px-4 py-2 w-28 rounded-md  border border-bglight hover:border-accent bg-bg text-sm text-text font-body font-medium cursor-pointer flex items-center gap-2 justify-center`}
     >
-      {!copied ? (
+      {/* {!copied ? (
         <Copy size={20} />
       ) : (
         <LoaderCircle size={20} className="animate-spin" />
-      )}
-      <p>{copied ? 'Copied!' : 'Email'}</p>
-    </motion.div>
+      )} */}
+      <p>Email</p>
+    </motion.a>
   );
 };
 
