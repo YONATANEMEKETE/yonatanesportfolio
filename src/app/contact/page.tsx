@@ -3,7 +3,7 @@
 import Wrapper from '@/components/Wrapper';
 import Image from 'next/image';
 import React from 'react';
-import profile from '../../../public/profile.webp';
+import profile from '../../../public/profile-updated.jpg';
 import ContactLink from '@/components/ContactLink';
 import { motion } from 'framer-motion';
 

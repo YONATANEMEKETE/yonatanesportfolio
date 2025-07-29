@@ -48,7 +48,7 @@ const About = () => {
             >
               <div className="relative h-full min-[500px]:w-[150px] w-[100px] rounded-xl overflow-clip cursor-pointer">
                 <Image
-                  src={'/profile.webp'}
+                  src={'/profile-updated.jpg'}
                   alt="profile"
                   fill
                   className="object-cover rounded-xl"
@@ -73,23 +73,29 @@ const About = () => {
                 <span className="underline decoration-accent decoration-wavy decoration-2 underline-offset-2">
                   YONATANE MEKETE
                 </span>
-                , a passionate{' '}
+                , a dedicated and growth-driven{' '}
                 <span className="text-accent font-semibold">
                   Frontend Developer
                 </span>{' '}
-                with a knack for creating sleek, intuitive, and user-friendly
-                web interfaces. With expertise in React.js, I specialize in
-                building modern, responsive websites that bring creative ideas
-                to life. My goal is to combine clean design aesthetics with
-                cutting-edge technology to deliver seamless user experiences.
+                with a sharp eye for detail and a passion for building elegant,
+                high-performing web interfaces. I specialize in React.js and
+                Next.js, crafting responsive, scalable, and accessible web
+                applications that prioritize both user experience and
+                performance.
               </motion.p>
               <motion.p variants={riseToTop}>
-                I am highly consumed in the thought of creating the life i want
-                in the near future. so I am always learning{' '}
-                <span className="text-accent font-semibold">new skills</span>,
-                and improving the ones I&apos;ve already have. I love reading
-                personal development books, and i believe in a strict,
-                productive work ethics.
+                I’m deeply committed to building the life I envision, which
+                fuels my relentless curiosity and continuous learning. Whether
+                it’s mastering new frontend technologies, exploring backend
+                fundamentals, or refining my design intuition, I thrive on
+                pushing my skills forward.
+              </motion.p>
+              <motion.p variants={riseToTop}>
+                Outside of code, I’m an advocate for self-mastery. I read
+                personal development books regularly and live by a disciplined,
+                high-performance work ethic. I believe in staying sharp, working
+                smart, and never settling and I try to bring that mindset into
+                everything I do.
               </motion.p>
             </motion.div>
 

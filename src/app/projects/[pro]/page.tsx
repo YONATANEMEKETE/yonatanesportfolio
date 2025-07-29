@@ -96,9 +96,11 @@ const Project = ({ params }: { params: { pro: string } }) => {
               viewport={{ once: true }}
               className="space-y-4"
             >
-              <h2 className="text-text text-xl font-body font-semibold">
-                Links
-              </h2>
+              {(currentProject.github || currentProject.live) && (
+                <h2 className="text-text text-xl font-body font-semibold">
+                  Links
+                </h2>
+              )}
 
               <motion.div
                 variants={riseStagger}
@@ -107,8 +109,12 @@ const Project = ({ params }: { params: { pro: string } }) => {
                 viewport={{ once: true }}
                 className="flex flex-wrap items-center gap-4"
               >
-                <Links text="Source Code" link={currentProject.github} />
-                <Links text="Live Demo" link={currentProject.live} />
+                {currentProject.github && (
+                  <Links text="Source Code" link={currentProject.github} />
+                )}
+                {currentProject.live && (
+                  <Links text="Live Demo" link={currentProject.live} />
+                )}
               </motion.div>
             </motion.div>
           </div>

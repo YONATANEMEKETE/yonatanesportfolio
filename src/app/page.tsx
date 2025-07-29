@@ -1,6 +1,6 @@
 import Wrapper from '@/components/Wrapper';
 import Image from 'next/image';
-import profile from '../../public/profile.webp';
+import profile from '../../public/profile-updated.jpg';
 import ResumeDownload from '@/components/ResumeDownload';
 import Email from '@/components/Email';
 import Footer from '@/components/Footer';

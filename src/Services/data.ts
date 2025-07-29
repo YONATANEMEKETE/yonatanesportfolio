@@ -6,12 +6,12 @@ import { projectType } from './Types';
 
 const homeNavs = [
   {
-    text: 'A. I heard you can build stunning websites and web Apps.',
+    text: 'A. I heard you can build stunning  web Apps.',
     link: '/projects',
     id: '1',
   },
   {
-    text: 'B. Yonatane!, Who?',
+    text: 'B. YONATANE!, Who?',
     link: '/about',
     id: '2',
   },
@@ -105,6 +105,60 @@ const services = [
 
 const projects: projectType[] = [
   {
+    title: 'BuySignal',
+    type: 'Web Application',
+    shortDescription:
+      'boost conversions by showing urgency-driven popups through a simple website script',
+    description:
+      'BuySignal is a conversion-boosting tool that helps business owners increase sales by displaying smart popups on their websites. By injecting a simple script, it creates a sense of urgency through targeted messages, encouraging visitors to take action.',
+    tools: [
+      'Next.js 15',
+      'React 19',
+      'Typescript',
+      'Tailwind',
+      'Shadcn',
+      'recharts',
+      'React Hook Form',
+      'zod',
+    ],
+    images: [
+      'https://ik.imagekit.io/6qizpphtd1/buysignal/photo_2025-06-30_09-29-10.jpg?updatedAt=1753772240293',
+      'https://ik.imagekit.io/6qizpphtd1/buysignal/photo_2025-06-30_09-29-26.jpg?updatedAt=1753772230332',
+      'https://ik.imagekit.io/6qizpphtd1/buysignal/photo_2025-06-30_09-29-23.jpg?updatedAt=1753772230222',
+      'https://ik.imagekit.io/6qizpphtd1/buysignal/photo_2025-06-30_09-29-20.jpg?updatedAt=1753772235111',
+    ],
+    profile:
+      'https://ik.imagekit.io/6qizpphtd1/buysignal/photo_2025-06-30_09-29-10.jpg?updatedAt=1753772240293',
+  },
+  {
+    title: 'Query.Design',
+    type: 'Web Application',
+    shortDescription:
+      'lets users interact with their database using natural language and save queries as shareable, standalone pages.',
+    description:
+      'Query.Design is a developer tool that allows users to communicate with their database using natural language. It transforms plain English into structured queries and lets users save and share them as standalone, reusable pages—making data access faster and more intuitive.',
+    tools: [
+      'Next.js 15',
+      'React 19',
+      'Typescript',
+      'Tailwind',
+      'Shadcn',
+      'chart.js',
+      'React Hook Form',
+      'zod',
+    ],
+    images: [
+      'https://ik.imagekit.io/6qizpphtd1/query.design/photo_2025-06-30_09-38-43.jpg?updatedAt=1753772323991',
+      'https://ik.imagekit.io/6qizpphtd1/query.design/photo_2025-06-30_09-38-39.jpg?updatedAt=1753772323258',
+      'https://ik.imagekit.io/6qizpphtd1/query.design/photo_2025-06-30_09-38-33.jpg?updatedAt=1753772322851',
+      'https://ik.imagekit.io/6qizpphtd1/query.design/photo_2025-06-30_09-38-37.jpg?updatedAt=1753772322453',
+      'https://ik.imagekit.io/6qizpphtd1/query.design/photo_2025-06-30_09-38-28.jpg?updatedAt=1753772322135',
+      'https://ik.imagekit.io/6qizpphtd1/query.design/photo_2025-06-30_09-38-31.jpg?updatedAt=1753772320928',
+    ],
+    profile:
+      'https://ik.imagekit.io/6qizpphtd1/query.design/photo_2025-06-30_09-38-43.jpg?updatedAt=1753772323991',
+  },
+  {
     title: 'SnapBuild',
     type: 'Web Application',
     shortDescription: 'Project Management tool for Frontend Developer',
@@ -154,56 +208,6 @@ const projects: projectType[] = [
       'https://ik.imagekit.io/6qizpphtd1/Portfolio/737shots_so.png',
     ],
     profile: 'https://ik.imagekit.io/6qizpphtd1/Portfolio/316shots_so.png',
-  },
-  {
-    title: 'TrackZ',
-    type: 'Landing Page',
-    shortDescription:
-      'a customer Relationship managment(CRM) landing page website.',
-    description:
-      'CRM is software system that helps business owners easily track all communications and nurture relationships with their leads and clients. A CRM connects all the data from your sales leads and customers, all in one place. and I build the landing page for this software to attract more trafic to the the product. I built the landing Page in a way that it can be very convertable by considering SEO ranking and performance optimization. I have added modern animations and micro-interactions to improve user engagment using libraries like lenis scroll, React parallax and Framer motion.',
-    tools: [
-      'Next.js',
-      'Tailwind',
-      'Shadcn',
-      'Lenis',
-      'ReactParallax',
-      'Typescript',
-    ],
-    github: 'https://github.com/YONATANEMEKETE/trackz-crm',
-    live: 'https://trackz-crm.vercel.app',
-    images: [
-      'https://ik.imagekit.io/6qizpphtd1/Portfolio/pro1image1.jpg',
-      'https://ik.imagekit.io/6qizpphtd1/Portfolio/pro1image2.jpg',
-      'https://ik.imagekit.io/6qizpphtd1/Portfolio/pro1image3.jpg',
-      'https://ik.imagekit.io/6qizpphtd1/Portfolio/pro1image4.jpg',
-    ],
-    profile: 'https://ik.imagekit.io/6qizpphtd1/Portfolio/pro1image1.jpg',
-  },
-  {
-    title: 'Clause',
-    type: 'Landing Page',
-    shortDescription: 'a contract managment landing Page website',
-    description:
-      'Designed and developed a responsive, visually appealing landing page using React.js, Next.js ensuring optimal performance and accessibility. Implemented modern UI/UX principles to enhance user experience, integrating smooth animations, custom components, and clean, well-structured code. Focused on delivering a minimalist, mobile-first design with cross-browser compatibility and SEO optimization.',
-    tools: [
-      'Typescript',
-      'Next.js',
-      'React.js',
-      'Tailwind',
-      'Shadcn',
-      'Zustand',
-    ],
-    github: 'https://github.com/YONATANEMEKETE/claude',
-    live: 'https://clause.vercel.app/',
-    images: [
-      'https://ik.imagekit.io/6qizpphtd1/Portfolio/pro3image1.png',
-      'https://ik.imagekit.io/6qizpphtd1/Portfolio/pro3image2.jpg',
-      'https://ik.imagekit.io/6qizpphtd1/Portfolio/pro3image3.jpg',
-      'https://ik.imagekit.io/6qizpphtd1/Portfolio/pro3image4.jpg',
-      'https://ik.imagekit.io/6qizpphtd1/Portfolio/pro3image5.jpg',
-    ],
-    profile: 'https://ik.imagekit.io/6qizpphtd1/Portfolio/pro3image1.png',
   },
 ];
 

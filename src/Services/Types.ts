@@ -4,8 +4,8 @@ export type projectType = {
   shortDescription: string;
   description: string;
   tools: string[];
-  github: string;
-  live: string;
+  github?: string;
+  live?: string;
   images: string[];
   profile: string;
 };
